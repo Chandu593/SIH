@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LecturePage</title>
+    <style>
+        /* body{
+            background:linear-gradient(230deg,#a75c5c 50%,#aa8888  50%);
+            background: linear-gradient(230deg,#b23ad2 50%,#9032b5 50%);
+        } */
+        .button {
+            width: 210px;
+            align-items: center;
+            appearance: none;
+            background-color: #d974fa;
+            border-radius: 4px;
+            border-width: 0;
+            box-shadow: rgba(45, 35, 66, 0.4) 0 2px 4px, rgba(45, 35, 66, 0.3) 0 7px 13px -3px, #D6D6E7 0 -3px 0 inset;
+            box-sizing: border-box;
+            color: #36395A;
+            cursor: pointer;
+            display: inline-flex;
+            font-family: "JetBrains Mono", monospace;
+            height: 80px;
+            justify-content: center;
+            line-height: 1;
+            list-style: none;
+            overflow: hidden;
+            padding-left: 16px;
+            padding-right: 16px;
+            position: relative;
+            text-align: left;
+            text-decoration: none;
+            transition: box-shadow .15s, transform .15s;
+            user-select: none;
+            -webkit-user-select: none;
+            touch-action: manipulation;
+            white-space: nowrap;
+            will-change: box-shadow, transform;
+            font-size: 30px;
+            margin: 40px;
+        }
+
+        .button:focus {
+            box-shadow: #D6D6E7 0 0 0 1.5px inset, rgba(45, 35, 66, 0.4) 0 2px 4px, rgba(45, 35, 66, 0.3) 0 7px 13px -3px, #D6D6E7 0 -3px 0 inset;
+        }
+
+        .button:hover {
+            box-shadow: rgba(45, 35, 66, 0.4) 0 4px 8px, rgba(45, 35, 66, 0.3) 0 7px 13px -3px, #D6D6E7 0 -3px 0 inset;
+            transform: translateY(-2px);
+        }
+
+        .button:active {
+            box-shadow: #D6D6E7 0 3px 7px inset;
+            transform: translateY(2px);
+        }
+        .subjects{
+            background: linear-gradient(230deg,#b23ad2 50%,#9032b5 50%);
+            width: 100vw;
+            height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+        }
+        .subjectrow1 .subjectrow2{
+            display: flex;
+            flex-direction: row;
+            justify-content: space-evenly;
+            flex-wrap: wrap;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="subjects">
+        <div class="subjectrow1">
+            <button class="button" role="button">Hindi</button>
+            <button class="button" role="button">English</button>
+            <button class="button" role="button">Mathematics</button>
+        </div>
+        <div class="subjectrow2">
+            <button class="button" role="button">EVS</button>
+            <button class="button" role="button">GK</button>
+        </div>
+    </div>
+</body>
+
+</html>
